@@ -1,0 +1,54 @@
+
+.inputdiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    top:-25px
+}
+input{
+    border-radius: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid rgb(83, 83, 168);
+    padding:10px ;
+    width: 100%;
+}
+input:focus{
+    outline:none;
+    border-bottom: 5px solid red;
+}
+button{
+    border-radius: 10px;
+    padding:10px ;
+    background-color: rgb(35, 54, 107);
+    color: white;
+}
+button:hover{
+    background:rgb(163, 113, 209)
+}
+img{
+    /* filter: grayscale(2); */
+}
+.tododiv{
+    
+    line-height: 8px;
+}
+box-icon{
+    color: aqua;
+}
+.Tasklist{
+    display: flex;
+    background: rgb(35, 54, 107);
+    margin-top: 1rem;
+    border-radius: 5px;
+    padding: 10px 20px;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.Tasklist p{
+    margin: 10px 0px;
+}
