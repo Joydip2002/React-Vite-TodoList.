@@ -25,7 +25,7 @@ const TodoList = ({ getTask, oncomplete, ondelete }) => {
             </div>
           )) :
             <div className='text-center text-white tododiv mt-5'>
-              <img src="../src/assets/taskboard.png" width='15%' alt="taskboard" />
+              <img src="taskboard.png" width='15%' alt="taskboard" />
               <p className='mt-5'>You have no task register yet</p>
               <p>Create task and organized your todo</p>
             </div>
